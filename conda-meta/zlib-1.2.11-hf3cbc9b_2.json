@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "hf3cbc9b_2",
+  "build_number": 2,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [],
+  "files": [
+    "include/zconf.h",
+    "include/zlib.h",
+    "lib/libz.1.2.11.dylib",
+    "lib/libz.1.dylib",
+    "lib/libz.a",
+    "lib/libz.dylib",
+    "lib/pkgconfig/zlib.pc"
+  ],
+  "fn": "zlib-1.2.11-hf3cbc9b_2.tar.bz2",
+  "license": "zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "//anaconda/pkgs/zlib-1.2.11-hf3cbc9b_2",
+    "type": 1
+  },
+  "md5": "f77c7d05dc47868e181135af65cb6e26",
+  "name": "zlib",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 103233,
+  "subdir": "osx-64",
+  "timestamp": 1510092154915,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/zlib-1.2.11-hf3cbc9b_2.tar.bz2",
+  "version": "1.2.11",
+  "with_features_depends": {}
+}

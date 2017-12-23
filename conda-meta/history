@@ -1,0 +1,20 @@
+==> 2017-12-23 12:18:01 <==
+# cmd: //anaconda/bin/conda install --name toxic python=3.5
++defaults::ca-certificates-2017.08.26-ha1e5d58_0
++defaults::certifi-2017.11.5-py35hd00889a_0
++defaults::libcxx-4.0.1-h579ed51_0
++defaults::libcxxabi-4.0.1-hebd6815_0
++defaults::libedit-3.1-hb4e282d_0
++defaults::libffi-3.2.1-h475c297_4
++defaults::ncurses-6.0-hd04f020_2
++defaults::openssl-1.0.2n-hdbc3d79_0
++defaults::pip-9.0.1-py35h33ce766_4
++defaults::python-3.5.4-he720263_23
++defaults::readline-7.0-hc1231fa_4
++defaults::setuptools-36.5.0-py35h52cde6a_0
++defaults::sqlite-3.20.1-h7e4c145_2
++defaults::tk-8.6.7-h35a86e2_3
++defaults::wheel-0.30.0-py35h5c0b906_1
++defaults::xz-5.2.3-h0278029_2
++defaults::zlib-1.2.11-hf3cbc9b_2
+# install specs: python 3.5*

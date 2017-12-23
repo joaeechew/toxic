@@ -1,0 +1,41 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "py35hd00889a_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [
+    "python >=3.5,<3.6.0a0"
+  ],
+  "files": [
+    "lib/python3.5/site-packages/certifi-2017.11.05-py3.5.egg-info",
+    "lib/python3.5/site-packages/certifi/__init__.py",
+    "lib/python3.5/site-packages/certifi/__main__.py",
+    "lib/python3.5/site-packages/certifi/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/certifi/__pycache__/__main__.cpython-35.pyc",
+    "lib/python3.5/site-packages/certifi/__pycache__/core.cpython-35.pyc",
+    "lib/python3.5/site-packages/certifi/cacert.pem",
+    "lib/python3.5/site-packages/certifi/core.py",
+    "lib/python3.5/site-packages/certifi/old_root.pem",
+    "lib/python3.5/site-packages/certifi/weak.pem"
+  ],
+  "fn": "certifi-2017.11.5-py35hd00889a_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "//anaconda/pkgs/certifi-2017.11.5-py35hd00889a_0",
+    "type": 1
+  },
+  "md5": "87d528642f3b3bb0c78604cda6f38cfa",
+  "name": "certifi",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 200518,
+  "subdir": "osx-64",
+  "timestamp": 1511294786352,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/certifi-2017.11.5-py35hd00889a_0.tar.bz2",
+  "version": "2017.11.5",
+  "with_features_depends": {}
+}

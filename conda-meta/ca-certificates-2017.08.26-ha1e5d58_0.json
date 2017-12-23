@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "ha1e5d58_0",
+  "build_number": 0,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [],
+  "files": [
+    "ssl/cacert.pem",
+    "ssl/cert.pem"
+  ],
+  "fn": "ca-certificates-2017.08.26-ha1e5d58_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "//anaconda/pkgs/ca-certificates-2017.08.26-ha1e5d58_0",
+    "type": 1
+  },
+  "md5": "a2c71bb4e657dfa888c524e54bf859c0",
+  "name": "ca-certificates",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 269832,
+  "subdir": "osx-64",
+  "timestamp": 1505909201288,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/ca-certificates-2017.08.26-ha1e5d58_0.tar.bz2",
+  "version": "2017.08.26",
+  "with_features_depends": {}
+}

@@ -1,0 +1,43 @@
+{
+  "arch": "x86_64",
+  "auth": null,
+  "build": "h475c297_4",
+  "build_number": 4,
+  "channel": "https://repo.continuum.io/pkgs/main/osx-64",
+  "depends": [
+    "libcxx >=4.0.1"
+  ],
+  "files": [
+    "include/ffi.h",
+    "include/ffitarget.h",
+    "lib/libffi.6.dylib",
+    "lib/libffi.a",
+    "lib/libffi.dylib",
+    "lib/libffi.la",
+    "lib/pkgconfig/libffi.pc",
+    "share/info/libffi.info",
+    "share/man/man3/ffi.3",
+    "share/man/man3/ffi_call.3",
+    "share/man/man3/ffi_prep_cif.3",
+    "share/man/man3/ffi_prep_cif_var.3"
+  ],
+  "fn": "libffi-3.2.1-h475c297_4.tar.bz2",
+  "license": "Custom",
+  "link": {
+    "source": "//anaconda/pkgs/libffi-3.2.1-h475c297_4",
+    "type": 1
+  },
+  "md5": "4b13e6ff2ef114361106e5780296a5eb",
+  "name": "libffi",
+  "noarch": null,
+  "platform": "darwin",
+  "preferred_env": null,
+  "priority": 0,
+  "schannel": "defaults",
+  "size": 41085,
+  "subdir": "osx-64",
+  "timestamp": 1510177287824,
+  "url": "https://repo.continuum.io/pkgs/main/osx-64/libffi-3.2.1-h475c297_4.tar.bz2",
+  "version": "3.2.1",
+  "with_features_depends": {}
+}
