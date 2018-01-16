@@ -3,6 +3,8 @@
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from nltk.tokenize import RegexpTokenizer
+from nltk.corpus import stopwords
+import nltk
 import re
 
 class TextCleaner(BaseEstimator, TransformerMixin):
@@ -32,7 +34,7 @@ class TextCleaner(BaseEstimator, TransformerMixin):
                 tokens = [t for t in tokens if not t in self.stop_words]
             tokens = ' '.join(tokens)
             if tokens == '':
-            	tokens = 'cleaned'
+                tokens = 'cleaned'
             result.append(tokens)
         return result
     
@@ -54,7 +56,7 @@ class KerasProcesser(BaseEstimator, TransformerMixin):
         # vocab_size = len(tokenizer.word_index) + 1
         result = tokenizer.texts_to_sequences(X)
         result = pad_sequences(result, maxlen=self.maxlen, padding='post')
-        return result
+        return result, tokenizer
     
     def fit(self, *args):
         return self
