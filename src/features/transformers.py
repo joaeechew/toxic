@@ -6,7 +6,7 @@ from nltk.tokenize import RegexpTokenizer
 import re
 
 class TextCleaner(BaseEstimator, TransformerMixin):
-    def __init__(self, regex='\S+', remove_digits=False, english_only=False, stop_words=None, lower=True, filters='[!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n]'):
+    def __init__(self, regex='\S+', remove_digits=False, english_only=False, stop_words=None, lower=True, filters=None):
         self.regex = regex
         self.remove_digits = remove_digits
         self.english_only = english_only
@@ -53,7 +53,7 @@ class KerasProcesser(BaseEstimator, TransformerMixin):
         tokenizer.fit_on_texts(X)
         # vocab_size = len(tokenizer.word_index) + 1
         result = tokenizer.texts_to_sequences(X)
-        result = pad_sequences(result, maxlen=maxlen, padding='post')
+        result = pad_sequences(result, maxlen=self.maxlen, padding='post')
         return result
     
     def fit(self, *args):
