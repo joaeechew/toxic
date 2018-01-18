@@ -1,9 +1,0 @@
-INFO:root:1. {'cleaner__english_only': True, 'cleaner__remove_digits': True, 'cleaner__stop_words': None, 'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:1. {'cleaner__english_only': True, 'cleaner__remove_digits': True, 'cleaner__stop_words': None, 'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:Combined log loss: 0.07438165648821887 .
-INFO:root:2. {'cleaner__english_only': True, 'cleaner__remove_digits': False, 'cleaner__stop_words': None, 'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:Combined log loss: 0.07392908698943518 .
-INFO:root:3. {'cleaner__english_only': False, 'cleaner__remove_digits': True, 'cleaner__stop_words': None, 'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:Combined log loss: 0.05311794033910355 .
-INFO:root:4. {'cleaner__english_only': False, 'cleaner__remove_digits': False, 'cleaner__stop_words': None, 'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:Combined log loss: 0.05164052915703543 .
