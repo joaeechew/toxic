@@ -1,0 +1,17 @@
+INFO:root:1. {'keraser__num_words': 20000}
+INFO:root:1. {'keraser__num_words': 20000}
+INFO:root:1. {'keraser__num_words': 20000}
+INFO:root:1. {'keraser__num_words': 20000}
+INFO:root:1. {'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:1. {'keraser__maxlen': 50, 'keraser__num_words': 20000}
+INFO:root:Combined log loss: 0.05338482213045154 .
+INFO:root:2. {'keraser__maxlen': 65, 'keraser__num_words': 20000}
