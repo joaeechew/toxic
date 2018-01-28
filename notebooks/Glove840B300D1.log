@@ -1,4 +1,0 @@
-INFO:root:1. {'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:Combined log loss: 0.06791923473690598 .
-INFO:root:1. {'cleaner__lower': True, 'keraser__maxlen': 65, 'keraser__num_words': 20000}
-INFO:root:Combined log loss: 0.06923861937255259 .
